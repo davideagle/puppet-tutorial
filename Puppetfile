@@ -1,52 +1,26 @@
 forge "http://forge.puppetlabs.com"
 
-# Modules from the Puppet Forge
-mod "puppetlabs/apache"
-mod "puppetlabs/concat"
-mod "puppetlabs/firewall"
-mod "puppetlabs/ntp"
-mod "puppetlabs/stdlib"
-mod "saz/ssh"
-mod "yguenane/augeas"
-mod "yguenane/ygrpms"
-mod "saz/motd"
-mod "puppetlabs/puppetdb"
-mod "puppetlabs/postgresql"
-mod "puppetlabs/mcollective"
-mod "garethr/erlang"
-mod "puppetlabs/apt"
-mod "stahnma/epel"
-mod "puppetlabs/activemq"
-mod "puppetlabs/java"
-mod "puppetlabs/java_ks"
-mod "puppetlabs/rabbitmq"
-mod "richardc/datacat"
-mod "stephenrjohnson/puppet"
-mod "palli/createrepo"
+# r10k requirements
+mod "zack/r10k", "1.0.2"
+mod "gentoo/portage", "2.1.0"
+mod "mhuffnagle/make", "0.0.2"
+mod "puppetlabs/gcc", "0.1.0"
+mod "puppetlabs/git", "0.0.3"
+mod "puppetlabs/inifile", "1.0.3"
+mod "puppetlabs/pe_gem", "0.0.1"
+mod "puppetlabs/ruby", "0.1.0"
+mod "puppetlabs/vcsrepo", "0.2.0"
 
-# For our r10k installer
-mod "zack/r10k"
-mod "gentoo/portage"
-mod "mhuffnagle/make"
-mod "puppetlabs/gcc"
-mod "puppetlabs/git"
-mod "puppetlabs/inifile"
-mod "puppetlabs/pe_gem"
-mod "puppetlabs/ruby"
-mod "puppetlabs/vcsrepo"
+# Additional modules from the Puppet Forge
+mod "puppetlabs/apache", "0.11.0"
+mod "puppetlabs/concat", "1.0.1"
+mod "puppetlabs/firewall", "1.0.0"
+mod "puppetlabs/ntp", "3.0.1"
+mod "puppetlabs/stdlib", "4.1.0"
+mod "saz/ssh", "1.4.0"
+mod "yguenane/augeas", "0.1.1"
+mod "yguenane/ygrpms", "0.1.0"
 
 # Modules from Github
 mod "base",
-  :git => "git://github.com/rnelson0/rnelson0-base"
-
-mod "custom_facts",
-  :git => "git://github.com/rnelson0/rnelson0-custom_facts"
-
-mod "role",
-  :git => "git://github.com/rnelson0/rnelson0-role"
-
-mod "profile",
-  :git => "git://github.com/rnelson0/rnelson0-profile"
-
-mod "site_mcollective",
-  :git => "git://github.com/rnelson0/site_mcollective"
+  :git => "git://github.com/davideagle/davideagle-base"
