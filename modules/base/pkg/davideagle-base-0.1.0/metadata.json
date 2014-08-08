@@ -1,0 +1,19 @@
+{
+  "name": "davideagle-base",
+  "version": "0.1.0",
+  "author": "davideagle",
+  "summary": "Base class to apply to all agents",
+  "license": "Apache License, Version 2.0",
+  "source": "UNKNOWN",
+  "project_page": "UNKNOWN",
+  "issues_url": null,
+  "description": "This class contains our common configuration that is required across all managed nodes",
+  "dependencies": [
+    {
+      "name": "puppetlabs-stdlib",
+      "version_range": ">= 1.0.0"
+    },
+    {"name":"puppetlabs/ntp","version_requirement":">= 3.0.1"},
+    {"name":"saz/ssh","version_requirement":">= 1.4.0"}
+  ]
+}

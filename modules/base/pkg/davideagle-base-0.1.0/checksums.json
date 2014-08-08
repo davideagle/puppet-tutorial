@@ -1,0 +1,10 @@
+{
+  "Modulefile": "29c09a6ca11b3a98713594ae4e9bfbac",
+  "README.md": "c1808204f9d65ab9fc4525212db4598f",
+  "Rakefile": "20b80e526e351a74df2001f504e756d2",
+  "manifests/init.pp": "0b03de396f8d45ca38e0e38cba9c1d5b",
+  "metadata.json": "74d346869443b4b0efcf7320aa270a56",
+  "spec/classes/init_spec.rb": "f78dde1b0525342c17ed660d70553c2f",
+  "spec/spec_helper.rb": "a55d1e6483344f8ec6963fcb2c220372",
+  "tests/init.pp": "6f683e4e3cead5de90a50cb0fdd95f3b"
+}
