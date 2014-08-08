@@ -1,7 +1,4 @@
-Package {
-  allow_virtual => true,
-}
-
-node default {
-  hiera_include('classes')
+node 'puppet.local' {
+  include ::base
+  notify { "Generated from our notify branch": }
 }
