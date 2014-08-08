@@ -23,5 +23,5 @@ mod "yguenane/ygrpms", "0.1.0"
 
 # Modules from Github
 mod "base",
-  :git => "git://github.com/rnelson0/rnelson0-base"
+  :git => "git://github.com/davideagle/davideagle-base"
 
