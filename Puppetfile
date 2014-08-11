@@ -24,5 +24,6 @@ mod "saz/motd"
 
 # Modules from Github
 mod "base",
-  :git => "git://github.com/davideagle/davideagle-base.git"
+  :git => "https://github.com/davideagle/davideagle-base",
+  :ref => 'production'
 
