@@ -23,5 +23,6 @@ mod "yguenane/ygrpms", "0.1.0"
 
 # Modules from Github
 mod "base",
-  :git => "https://github.com/davideagle/davideagle-base"
+  :git => "https://github.com/davideagle/davideagle-base",
+  :ref => 'production'
 
