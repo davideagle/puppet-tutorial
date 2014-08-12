@@ -21,6 +21,9 @@ mod "saz/ssh", "1.4.0"
 mod "yguenane/augeas", "0.1.1"
 mod "yguenane/ygrpms", "0.1.0"
 mod "saz/motd"
+mod "puppetlabs/puppetdb"
+mod "puppetlabs/postgresql"
+
 
 # Modules from Github
 mod "base",
