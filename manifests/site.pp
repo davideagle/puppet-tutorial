@@ -3,6 +3,3 @@ node 'puppet.local' {
   notify { "Generated from our notify branch": }
 }
 
-node {
-  include
-}
