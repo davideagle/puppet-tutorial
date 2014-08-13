@@ -47,4 +47,4 @@ mod "role",
   :git => "https://github.com/davideagle/davideagle-role"
 
 mod "profile",
-  :git => "https:://github.com/davideagle/davideagle-profile"
+  :git => "https://github.com/davideagle/davideagle-profile"

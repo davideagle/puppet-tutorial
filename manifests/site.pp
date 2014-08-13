@@ -38,4 +38,7 @@ node 'puppet.local' {
 
 }
 
+node default{
+}
+
 
