@@ -38,6 +38,10 @@ node 'puppet.local' {
 
 }
 
+node /^server\d+/ {
+  include role::webserver
+}
+
 node default{
 }
 
