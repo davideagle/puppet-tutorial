@@ -24,6 +24,16 @@ mod "saz/motd"
 mod "puppetlabs/puppetdb"
 mod "puppetlabs/postgresql"
 
+#MCollective
+mod "puppetlabs/mcollective"
+mod "garethr/erlang"
+mod "puppetlabs/apt"
+mod "stahnma/epel"
+mod "puppetlabs/activemq"
+mod "puppetlabs/java"
+mod "puppetlabs/java_ks"
+mod "puppetlabs/rabbitmq"
+mod "richardc/datacat"
 
 # Modules from Github
 mod "base",
