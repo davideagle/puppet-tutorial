@@ -40,3 +40,5 @@ mod "base",
   :git => "https://github.com/davideagle/davideagle-base",
   :ref => 'production'
 
+mod "site_mcollective",
+  :git => "https://github.com/davideagle/site_mcollective",
