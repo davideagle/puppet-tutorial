@@ -48,3 +48,6 @@ mod "role",
 
 mod "profile",
   :git => "https://github.com/davideagle/davideagle-profile"
+
+mod "custom_facts",
+  :git => "https://github.com/davideagle/davideagle-custom_facts"
