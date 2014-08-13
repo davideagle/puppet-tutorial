@@ -14,7 +14,7 @@ node 'puppet.local' {
   class { '::mcollective':
     client             => true,
     middleware         => true,
-    middleware_hosts   => [ 'puppet.nelson.va' ],
+    middleware_hosts   => [ 'puppet.local' ],
     middleware_ssl     => true,
     securityprovider   => 'ssl',
     ssl_client_certs   => 'puppet:///modules/site_mcollective/client_certs',
