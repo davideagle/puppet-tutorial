@@ -44,7 +44,7 @@ mod "site_mcollective",
   :git => "https://github.com/davideagle/site_mcollective"
 
 mod "role",
-  :git => "git://github.com/davideagle/davideagle-role"
+  :git => "https://github.com/davideagle/davideagle-role"
 
 mod "profile",
-  :git => "git://github.com/davideagle/davideagle-profile"
+  :git => "https:://github.com/davideagle/davideagle-profile"
