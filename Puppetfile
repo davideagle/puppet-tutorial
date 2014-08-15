@@ -26,7 +26,7 @@ mod "puppetlabs/postgresql"
 mod "ajjahn/dhcp"
 
 #Tomcat
-mod "BoxUp/tomcat"
+mod "BoxUpp/tomcat"
 
 #MCollective
 mod "puppetlabs/mcollective"
