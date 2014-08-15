@@ -23,7 +23,7 @@ mod "yguenane/ygrpms", "0.1.0"
 mod "saz/motd"
 mod "puppetlabs/puppetdb"
 mod "puppetlabs/postgresql"
-mod "puppetlabs/dhcp"
+mod "ajjahn/dhcp"
 
 
 #MCollective
