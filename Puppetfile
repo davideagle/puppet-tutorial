@@ -24,8 +24,9 @@ mod "saz/motd"
 mod "puppetlabs/puppetdb"
 mod "puppetlabs/postgresql"
 mod "ajjahn/dhcp"
-mod "thias/nagios"
 
+#Nagos modules
+mod "thias/nagios"
 
 #MCollective
 mod "puppetlabs/mcollective"
