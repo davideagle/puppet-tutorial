@@ -54,6 +54,6 @@ mod "custom_facts",
   :git => "https://github.com/davideagle/davideagle-custom_facts"
   
 mod "nagios",
-  :git => "https://github.com/davideagle/puppet-nagios"
+  :git => "https://github.com/davideagle/puppet-nagios",
   :ref => 'debian'
   
