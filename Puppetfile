@@ -26,7 +26,7 @@ mod "puppetlabs/postgresql"
 mod "ajjahn/dhcp"
 
 #Nagos modules
-mod "thias/nagios"
+#mod "thias/nagios"
 
 #MCollective
 mod "puppetlabs/mcollective"
@@ -52,3 +52,8 @@ mod "profile",
 
 mod "custom_facts",
   :git => "https://github.com/davideagle/davideagle-custom_facts"
+  
+mod "nagios",
+  :git => "https://github.com/davideagle/puppet-nagios"
+  :ref => 'debian'
+  
