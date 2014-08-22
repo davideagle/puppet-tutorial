@@ -24,6 +24,7 @@ mod "saz/motd"
 mod "puppetlabs/puppetdb"
 mod "puppetlabs/postgresql"
 mod "ajjahn/dhcp"
+mod "saz/rsyslog"
 
 #Nagos modules
 #mod "thias/nagios"
