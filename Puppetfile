@@ -57,7 +57,5 @@ mod "custom_facts",
 mod "nagios",
   :git => "https://github.com/davideagle/puppet-nagios",
   :ref => 'debian'
-  
-mod "users",
-  :git => "https://git.siminn.is/davidoj/puppet-users.git"
+
   
