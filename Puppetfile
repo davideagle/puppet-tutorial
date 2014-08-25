@@ -40,8 +40,6 @@ mod "puppetlabs/java_ks"
 mod "puppetlabs/rabbitmq"
 mod "richardc/datacat"
 
-mod "mthibaut/users"
-
 # Modules from Github
 
 mod "site_mcollective",
@@ -59,4 +57,7 @@ mod "custom_facts",
 mod "nagios",
   :git => "https://github.com/davideagle/puppet-nagios",
   :ref => 'debian'
+  
+mod "users",
+  :git => "https://git.siminn.is/davidoj/puppet-users.git",
   
