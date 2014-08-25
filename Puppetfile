@@ -59,5 +59,5 @@ mod "nagios",
   :ref => 'debian'
   
 mod "users",
-  :git => "https://git.siminn.is/davidoj/puppet-users.git",
+  :git => "https://git.siminn.is/davidoj/puppet-users.git"
   
