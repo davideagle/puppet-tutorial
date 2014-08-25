@@ -40,6 +40,8 @@ mod "puppetlabs/java_ks"
 mod "puppetlabs/rabbitmq"
 mod "richardc/datacat"
 
+mod "torrancew/account"
+
 # Modules from Github
 
 mod "site_mcollective",
