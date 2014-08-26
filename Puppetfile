@@ -28,6 +28,7 @@ mod "ajjahn/dhcp"
 mod "saz/rsyslog"
 mod "saz/motd"
 mod "saz/ssh", "1.4.0"
+mod "saz/resolv_conf"
 
 #Nagos modules
 #mod "thias/nagios"
