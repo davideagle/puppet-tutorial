@@ -17,14 +17,17 @@ mod "puppetlabs/concat", "1.0.1"
 mod "puppetlabs/firewall", "1.0.0"
 mod "puppetlabs/ntp", "3.0.1"
 mod "puppetlabs/stdlib", "4.1.0"
-mod "saz/ssh", "1.4.0"
+
 mod "yguenane/augeas", "0.1.1"
 mod "yguenane/ygrpms", "0.1.0"
-mod "saz/motd"
+
 mod "puppetlabs/puppetdb"
 mod "puppetlabs/postgresql"
+
 mod "ajjahn/dhcp"
 mod "saz/rsyslog"
+mod "saz/motd"
+mod "saz/ssh", "1.4.0"
 
 #Nagos modules
 #mod "thias/nagios"
@@ -54,7 +57,7 @@ mod "profile",
   :git => "https://github.com/davideagle/davideagle-profile"
 
 mod "custom_facts",
-  :git => "https://github.com/davideagle/davideagle-custom_facts"
+  :git => "https://git.siminn.is/davidoj/custom_facts.git"
   
 mod "nagios",
   :git => "https://github.com/davideagle/puppet-nagios",
